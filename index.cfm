@@ -128,11 +128,11 @@ WriteDump(Category);
 
 </cfscript>
 <cfscript>
-    QueryExecute(
+   /* QueryExecute(
         'INSERT INTO Category (titulo,descripcion,principal_photo) VALUES ("Hogar2","Anuncios sobre hogar","imagen.jpg")',
         [],
         {result="qryResult" }
-    );
+    );*/
 </cfscript>
 
 
