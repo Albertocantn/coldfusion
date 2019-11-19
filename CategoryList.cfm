@@ -318,8 +318,7 @@ $(document).ready(function(){
                         <td>'& i.getDescripcion() &'</td>
 						<td>'& i.getPrincipal_photo() &'</td>
                         <td>
-                            <a href="editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">Edit</i></a>
-                            <a href="deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">Delete</i></a>
+                            <a href="editEmployeeModal" class="edit" data-toggle="modal"><i class="fa fa-pencil" aria-hidden="true"></i></a><a href="deleteEmployeeModal" class="delete" data-toggle="modal"><i class="fa fa-trash" aria-hidden="true"></i></a>
                         </td>
                     </tr>');
                 }
